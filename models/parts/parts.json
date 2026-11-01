@@ -1,0 +1,62 @@
+{
+  "generatedAt": "2026-11-01",
+  "tool": "tools/prepare-parts-library.cjs",
+  "units": "m",
+  "naturalSwatch": "cream",
+  "file": "florida-parts.glb",
+  "frame": "each part: x/z centred, bottom at y=0",
+  "parts": {
+    "seat": {
+      "size": {
+        "w": 0.8413,
+        "h": 0.1876,
+        "d": 0.8021
+      },
+      "material": "fabric"
+    },
+    "back": {
+      "size": {
+        "w": 0.8535,
+        "h": 0.4289,
+        "d": 0.2545
+      },
+      "material": "fabric"
+    },
+    "armSlim": {
+      "size": {
+        "w": 0.3573,
+        "h": 0.6359,
+        "d": 0.9594
+      },
+      "material": "fabric",
+      "structural": 0.198,
+      "outer": "+x"
+    },
+    "armWide": {
+      "size": {
+        "w": 0.3636,
+        "h": 0.6356,
+        "d": 1.0056
+      },
+      "material": "fabric",
+      "structural": 0.279,
+      "outer": "+x"
+    },
+    "leg": {
+      "size": {
+        "w": 0.1322,
+        "h": 0.1141,
+        "d": 0.1227
+      },
+      "material": "legs"
+    },
+    "pillow": {
+      "size": {
+        "w": 0.5165,
+        "h": 0.4282,
+        "d": 0.4206
+      },
+      "material": "pillows"
+    }
+  }
+}
