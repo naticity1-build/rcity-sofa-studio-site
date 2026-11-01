@@ -1,0 +1,59 @@
+{
+  "model": "florida",
+  "generatedAt": "2026-11-01",
+  "tool": "tools/prepare-florida-kit.cjs",
+  "units": "cm",
+  "frame": "x: viewer-left → right, y: floor → up, z: back → front",
+  "naturalSwatch": "cream",
+  "configurations": {
+    "chaise": {
+      "file": "chaise.glb",
+      "source": "https://www.rcity.co.il/wp-content/uploads/2025/04/FloridaSofaB_CREAM.glb",
+      "triangles": 286224,
+      "native": {
+        "width": 297.1,
+        "height": 89.7,
+        "length": 218.4,
+        "chaiseSide": "left",
+        "depth": 91,
+        "chaiseLength": 218.4,
+        "chaiseColumn": 104.6,
+        "armOtherSide": 19.7,
+        "xBreaks": [
+          0,
+          104.6,
+          277.4,
+          297.1
+        ],
+        "zBreaks": [
+          0,
+          91,
+          218.4
+        ]
+      }
+    },
+    "straight": {
+      "file": "straight.glb",
+      "source": "https://www.rcity.co.il/wp-content/uploads/2025/04/FloridaSofaA_CREAM.glb",
+      "triangles": 252689,
+      "native": {
+        "width": 309.1,
+        "height": 95.7,
+        "length": 100.7,
+        "depth": 100.7,
+        "armLeft": 27.8,
+        "armRight": 27.9,
+        "xBreaks": [
+          0,
+          27.8,
+          281.2,
+          309.1
+        ],
+        "zBreaks": [
+          0,
+          100.7
+        ]
+      }
+    }
+  }
+}
