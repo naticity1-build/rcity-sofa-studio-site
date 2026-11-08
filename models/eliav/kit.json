@@ -1,0 +1,37 @@
+{
+  "model": "eliav",
+  "units": "cm",
+  "frame": "x: viewer-left → right, y: floor → up, z: back → front",
+  "naturalSwatch": "cream",
+  "configurations": {
+    "chaise": {
+      "file": "chaise.glb",
+      "source": "tools/source-models/eliav/rcity-124302.glb",
+      "sourceChaiseSide": "right",
+      "triangles": 140908,
+      "native": {
+        "width": 300,
+        "height": 88,
+        "length": 200,
+        "chaiseSide": "left",
+        "depth": 96,
+        "chaiseLength": 200,
+        "chaiseColumn": 110,
+        "armOtherSide": 18,
+        "xBreaks": [
+          0,
+          110,
+          282,
+          300
+        ],
+        "zBreaks": [
+          0,
+          96,
+          200
+        ]
+      }
+    }
+  },
+  "generatedAt": "2026-11-08",
+  "tool": "tools/prepare-model-kit.cjs"
+}

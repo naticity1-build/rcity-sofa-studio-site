@@ -1,0 +1,34 @@
+{
+  "model": "itay",
+  "units": "cm",
+  "frame": "x: viewer-left → right, y: floor → up, z: back → front",
+  "naturalSwatch": "grey",
+  "configurations": {
+    "straight": {
+      "file": "straight.glb",
+      "source": "tools/source-models/itay/rcity-124438.glb",
+      "sourceChaiseSide": null,
+      "triangles": 99340,
+      "native": {
+        "width": 300,
+        "height": 88,
+        "length": 95,
+        "depth": 95,
+        "armLeft": 42.1,
+        "armRight": 42.1,
+        "xBreaks": [
+          0,
+          42.1,
+          257.9,
+          300
+        ],
+        "zBreaks": [
+          0,
+          95
+        ]
+      }
+    }
+  },
+  "generatedAt": "2026-11-08",
+  "tool": "tools/prepare-model-kit.cjs"
+}
