@@ -1,0 +1,40 @@
+{
+  "model": "alaska",
+  "generatedAt": "2026-11-10",
+  "tool": "tools/prepare-model-kit.cjs",
+  "units": "cm",
+  "frame": "x: viewer-left → right, y: floor → up, z: back → front",
+  "naturalSwatch": "cream",
+  "configurations": {
+    "chaise": {
+      "file": "chaise.glb",
+      "product": 124381,
+      "source": "tools/source-models/alaska/rcity-124381.glb",
+      "sourceChaiseSide": "left",
+      "naturalSwatch": "cream",
+      "seats": 2,
+      "triangles": 91112,
+      "native": {
+        "width": 300,
+        "height": 84,
+        "length": 200,
+        "chaiseSide": "left",
+        "depth": 88.5,
+        "chaiseLength": 200,
+        "chaiseColumn": 99.5,
+        "armOtherSide": 6,
+        "xBreaks": [
+          0,
+          99.5,
+          294,
+          300
+        ],
+        "zBreaks": [
+          0,
+          88.5,
+          200
+        ]
+      }
+    }
+  }
+}

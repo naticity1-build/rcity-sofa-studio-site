@@ -1,13 +1,18 @@
 {
   "model": "itay",
+  "generatedAt": "2026-11-10",
+  "tool": "tools/prepare-model-kit.cjs",
   "units": "cm",
   "frame": "x: viewer-left → right, y: floor → up, z: back → front",
   "naturalSwatch": "grey",
   "configurations": {
     "straight": {
       "file": "straight.glb",
+      "product": 124438,
       "source": "tools/source-models/itay/rcity-124438.glb",
       "sourceChaiseSide": null,
+      "naturalSwatch": "grey",
+      "seats": 2,
       "triangles": 99340,
       "native": {
         "width": 300,
@@ -28,7 +33,5 @@
         ]
       }
     }
-  },
-  "generatedAt": "2026-11-08",
-  "tool": "tools/prepare-model-kit.cjs"
+  }
 }

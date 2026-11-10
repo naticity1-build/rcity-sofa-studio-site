@@ -1,0 +1,40 @@
+{
+  "model": "bamboo",
+  "generatedAt": "2026-11-10",
+  "tool": "tools/prepare-model-kit.cjs",
+  "units": "cm",
+  "frame": "x: viewer-left → right, y: floor → up, z: back → front",
+  "naturalSwatch": "cream",
+  "configurations": {
+    "chaise": {
+      "file": "chaise.glb",
+      "product": 124409,
+      "source": "tools/source-models/bamboo/rcity-124409.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "cream",
+      "seats": 2,
+      "triangles": 166824,
+      "native": {
+        "width": 300.2,
+        "height": 91,
+        "length": 200.1,
+        "chaiseSide": "left",
+        "depth": 104.8,
+        "chaiseLength": 200.1,
+        "chaiseColumn": 100.3,
+        "armOtherSide": 15,
+        "xBreaks": [
+          0,
+          100.3,
+          285.2,
+          300.2
+        ],
+        "zBreaks": [
+          0,
+          104.8,
+          200.1
+        ]
+      }
+    }
+  }
+}

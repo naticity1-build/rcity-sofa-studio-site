@@ -1,0 +1,37 @@
+{
+  "model": "valencia",
+  "generatedAt": "2026-11-10",
+  "tool": "tools/prepare-model-kit.cjs",
+  "units": "cm",
+  "frame": "x: viewer-left → right, y: floor → up, z: back → front",
+  "naturalSwatch": "cream",
+  "configurations": {
+    "straight": {
+      "file": "straight.glb",
+      "product": 124364,
+      "source": "tools/source-models/valencia/rcity-124364.glb",
+      "sourceChaiseSide": null,
+      "naturalSwatch": "cream",
+      "seats": 2,
+      "triangles": 112696,
+      "native": {
+        "width": 320,
+        "height": 94.7,
+        "length": 120,
+        "depth": 120,
+        "armLeft": 6,
+        "armRight": 6,
+        "xBreaks": [
+          0,
+          6,
+          314,
+          320
+        ],
+        "zBreaks": [
+          0,
+          120
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "model": "nasia",
+  "generatedAt": "2026-11-10",
+  "tool": "tools/prepare-model-kit.cjs",
+  "units": "cm",
+  "frame": "x: viewer-left → right, y: floor → up, z: back → front",
+  "naturalSwatch": "cream",
+  "configurations": {
+    "chaise": {
+      "file": "chaise.glb",
+      "product": 124322,
+      "source": "tools/source-models/nasia/rcity-124322.glb",
+      "sourceChaiseSide": "left",
+      "naturalSwatch": "cream",
+      "seats": 1,
+      "triangles": 82520,
+      "native": {
+        "width": 320,
+        "height": 96.1,
+        "length": 180.3,
+        "chaiseSide": "left",
+        "depth": 107.4,
+        "chaiseLength": 180.3,
+        "chaiseColumn": 134.6,
+        "armOtherSide": 6,
+        "xBreaks": [
+          0,
+          134.6,
+          314,
+          320
+        ],
+        "zBreaks": [
+          0,
+          107.4,
+          180.3
+        ]
+      }
+    }
+  }
+}

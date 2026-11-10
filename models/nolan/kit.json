@@ -1,0 +1,37 @@
+{
+  "model": "nolan",
+  "generatedAt": "2026-11-10",
+  "tool": "tools/prepare-model-kit.cjs",
+  "units": "cm",
+  "frame": "x: viewer-left → right, y: floor → up, z: back → front",
+  "naturalSwatch": "taupe",
+  "configurations": {
+    "straight": {
+      "file": "straight.glb",
+      "product": 124347,
+      "source": "tools/source-models/nolan/rcity-124347.glb",
+      "sourceChaiseSide": null,
+      "naturalSwatch": "taupe",
+      "seats": 2,
+      "triangles": 127240,
+      "native": {
+        "width": 300,
+        "height": 97.8,
+        "length": 110.1,
+        "depth": 110.1,
+        "armLeft": 36.1,
+        "armRight": 36.1,
+        "xBreaks": [
+          0,
+          36.1,
+          263.9,
+          300
+        ],
+        "zBreaks": [
+          0,
+          110.1
+        ]
+      }
+    }
+  }
+}

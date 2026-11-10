@@ -1,0 +1,40 @@
+{
+  "model": "impro",
+  "generatedAt": "2026-11-10",
+  "tool": "tools/prepare-model-kit.cjs",
+  "units": "cm",
+  "frame": "x: viewer-left → right, y: floor → up, z: back → front",
+  "naturalSwatch": "cream",
+  "configurations": {
+    "chaise": {
+      "file": "chaise.glb",
+      "product": 124315,
+      "source": "tools/source-models/impro/rcity-124315.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "cream",
+      "seats": null,
+      "triangles": 150232,
+      "native": {
+        "width": 320,
+        "height": 94.2,
+        "length": 180,
+        "chaiseSide": "left",
+        "depth": 118.9,
+        "chaiseLength": 180,
+        "chaiseColumn": 110.1,
+        "armOtherSide": 17.2,
+        "xBreaks": [
+          0,
+          110.1,
+          302.8,
+          320
+        ],
+        "zBreaks": [
+          0,
+          118.9,
+          180
+        ]
+      }
+    }
+  }
+}

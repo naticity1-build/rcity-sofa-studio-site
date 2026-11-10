@@ -1,0 +1,67 @@
+{
+  "model": "sinta",
+  "generatedAt": "2026-11-10",
+  "tool": "tools/prepare-model-kit.cjs",
+  "units": "cm",
+  "frame": "x: viewer-left → right, y: floor → up, z: back → front",
+  "naturalSwatch": "taupe",
+  "configurations": {
+    "chaise": {
+      "file": "chaise.glb",
+      "product": 124457,
+      "source": "tools/source-models/sinta/rcity-124457.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "taupe",
+      "seats": 1,
+      "triangles": 111856,
+      "native": {
+        "width": 300,
+        "height": 96.8,
+        "length": 250,
+        "chaiseSide": "left",
+        "depth": 108.6,
+        "chaiseLength": 250,
+        "chaiseColumn": 110,
+        "armOtherSide": 35,
+        "xBreaks": [
+          0,
+          110,
+          265,
+          300
+        ],
+        "zBreaks": [
+          0,
+          108.6,
+          250
+        ]
+      }
+    },
+    "straight": {
+      "file": "straight.glb",
+      "product": 117780,
+      "source": "tools/source-models/sinta/rcity-117780.glb",
+      "sourceChaiseSide": null,
+      "naturalSwatch": "cream",
+      "seats": 2,
+      "triangles": 131000,
+      "native": {
+        "width": 319.6,
+        "height": 89.4,
+        "length": 110,
+        "depth": 110,
+        "armLeft": 31.3,
+        "armRight": 31.3,
+        "xBreaks": [
+          0,
+          31.3,
+          288.3,
+          319.6
+        ],
+        "zBreaks": [
+          0,
+          110
+        ]
+      }
+    }
+  }
+}

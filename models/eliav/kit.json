@@ -1,20 +1,25 @@
 {
   "model": "eliav",
+  "generatedAt": "2026-11-10",
+  "tool": "tools/prepare-model-kit.cjs",
   "units": "cm",
   "frame": "x: viewer-left → right, y: floor → up, z: back → front",
-  "naturalSwatch": "cream",
+  "naturalSwatch": "taupe",
   "configurations": {
     "chaise": {
       "file": "chaise.glb",
+      "product": 124302,
       "source": "tools/source-models/eliav/rcity-124302.glb",
       "sourceChaiseSide": "right",
+      "naturalSwatch": "taupe",
+      "seats": 1,
       "triangles": 140908,
       "native": {
         "width": 300,
         "height": 88,
         "length": 200,
         "chaiseSide": "left",
-        "depth": 96,
+        "depth": 95.9,
         "chaiseLength": 200,
         "chaiseColumn": 110,
         "armOtherSide": 18,
@@ -26,12 +31,10 @@
         ],
         "zBreaks": [
           0,
-          96,
+          95.9,
           200
         ]
       }
     }
-  },
-  "generatedAt": "2026-11-08",
-  "tool": "tools/prepare-model-kit.cjs"
+  }
 }

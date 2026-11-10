@@ -1,0 +1,40 @@
+{
+  "model": "leo",
+  "generatedAt": "2026-11-10",
+  "tool": "tools/prepare-model-kit.cjs",
+  "units": "cm",
+  "frame": "x: viewer-left → right, y: floor → up, z: back → front",
+  "naturalSwatch": "taupe",
+  "configurations": {
+    "chaise": {
+      "file": "chaise.glb",
+      "product": 124466,
+      "source": "tools/source-models/leo/rcity-124466.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "taupe",
+      "seats": 2,
+      "triangles": 133384,
+      "native": {
+        "width": 299.8,
+        "height": 100.4,
+        "length": 200,
+        "chaiseSide": "left",
+        "depth": 104.8,
+        "chaiseLength": 200,
+        "chaiseColumn": 99.8,
+        "armOtherSide": 27.4,
+        "xBreaks": [
+          0,
+          99.8,
+          272.4,
+          299.8
+        ],
+        "zBreaks": [
+          0,
+          104.8,
+          200
+        ]
+      }
+    }
+  }
+}

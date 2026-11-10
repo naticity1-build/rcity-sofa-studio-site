@@ -1,0 +1,40 @@
+{
+  "model": "blanc",
+  "generatedAt": "2026-11-10",
+  "tool": "tools/prepare-model-kit.cjs",
+  "units": "cm",
+  "frame": "x: viewer-left → right, y: floor → up, z: back → front",
+  "naturalSwatch": "taupe",
+  "configurations": {
+    "chaise": {
+      "file": "chaise.glb",
+      "product": 124356,
+      "source": "tools/source-models/blanc/rcity-124356.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "taupe",
+      "seats": null,
+      "triangles": 167964,
+      "native": {
+        "width": 300,
+        "height": 93.9,
+        "length": 180,
+        "chaiseSide": "left",
+        "depth": 102.4,
+        "chaiseLength": 180,
+        "chaiseColumn": 98.8,
+        "armOtherSide": 32.9,
+        "xBreaks": [
+          0,
+          98.8,
+          267.1,
+          300
+        ],
+        "zBreaks": [
+          0,
+          102.4,
+          180
+        ]
+      }
+    }
+  }
+}

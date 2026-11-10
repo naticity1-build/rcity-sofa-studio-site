@@ -1,0 +1,40 @@
+{
+  "model": "sial",
+  "generatedAt": "2026-11-10",
+  "tool": "tools/prepare-model-kit.cjs",
+  "units": "cm",
+  "frame": "x: viewer-left → right, y: floor → up, z: back → front",
+  "naturalSwatch": "cream",
+  "configurations": {
+    "chaise": {
+      "file": "chaise.glb",
+      "product": 134292,
+      "source": "tools/source-models/sial/rcity-134292.glb",
+      "sourceChaiseSide": "left",
+      "naturalSwatch": "cream",
+      "seats": null,
+      "triangles": 119830,
+      "native": {
+        "width": 264,
+        "height": 82.2,
+        "length": 170,
+        "chaiseSide": "left",
+        "depth": 94.7,
+        "chaiseLength": 170,
+        "chaiseColumn": 102,
+        "armOtherSide": 20,
+        "xBreaks": [
+          0,
+          102,
+          244,
+          264
+        ],
+        "zBreaks": [
+          0,
+          94.7,
+          170
+        ]
+      }
+    }
+  }
+}

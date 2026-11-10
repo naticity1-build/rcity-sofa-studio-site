@@ -1,0 +1,40 @@
+{
+  "model": "gefen",
+  "generatedAt": "2026-11-10",
+  "tool": "tools/prepare-model-kit.cjs",
+  "units": "cm",
+  "frame": "x: viewer-left → right, y: floor → up, z: back → front",
+  "naturalSwatch": "grey",
+  "configurations": {
+    "chaise": {
+      "file": "chaise.glb",
+      "product": 117787,
+      "source": "tools/source-models/gefen/rcity-117787.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "grey",
+      "seats": 2,
+      "triangles": 112752,
+      "native": {
+        "width": 300,
+        "height": 91,
+        "length": 180,
+        "chaiseSide": "left",
+        "depth": 99.7,
+        "chaiseLength": 180,
+        "chaiseColumn": 102,
+        "armOtherSide": 15,
+        "xBreaks": [
+          0,
+          102,
+          285,
+          300
+        ],
+        "zBreaks": [
+          0,
+          99.7,
+          180
+        ]
+      }
+    }
+  }
+}

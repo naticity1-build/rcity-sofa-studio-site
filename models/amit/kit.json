@@ -1,0 +1,37 @@
+{
+  "model": "amit",
+  "generatedAt": "2026-11-10",
+  "tool": "tools/prepare-model-kit.cjs",
+  "units": "cm",
+  "frame": "x: viewer-left → right, y: floor → up, z: back → front",
+  "naturalSwatch": "cream",
+  "configurations": {
+    "straight": {
+      "file": "straight.glb",
+      "product": 117368,
+      "source": "tools/source-models/amit/rcity-117368.glb",
+      "sourceChaiseSide": null,
+      "naturalSwatch": "cream",
+      "seats": 2,
+      "triangles": 167984,
+      "native": {
+        "width": 320,
+        "height": 97.8,
+        "length": 130,
+        "depth": 130,
+        "armLeft": 36,
+        "armRight": 36,
+        "xBreaks": [
+          0,
+          36,
+          284,
+          320
+        ],
+        "zBreaks": [
+          0,
+          130
+        ]
+      }
+    }
+  }
+}

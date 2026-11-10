@@ -1,0 +1,37 @@
+{
+  "model": "miley",
+  "generatedAt": "2026-11-10",
+  "tool": "tools/prepare-model-kit.cjs",
+  "units": "cm",
+  "frame": "x: viewer-left → right, y: floor → up, z: back → front",
+  "naturalSwatch": "cream",
+  "configurations": {
+    "straight": {
+      "file": "straight.glb",
+      "product": 117360,
+      "source": "tools/source-models/miley/rcity-117360.glb",
+      "sourceChaiseSide": null,
+      "naturalSwatch": "cream",
+      "seats": 2,
+      "triangles": 124768,
+      "native": {
+        "width": 320,
+        "height": 101.8,
+        "length": 120,
+        "depth": 120,
+        "armLeft": 41,
+        "armRight": 41,
+        "xBreaks": [
+          0,
+          41,
+          279,
+          320
+        ],
+        "zBreaks": [
+          0,
+          120
+        ]
+      }
+    }
+  }
+}

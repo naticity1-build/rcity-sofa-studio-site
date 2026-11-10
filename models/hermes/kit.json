@@ -1,0 +1,40 @@
+{
+  "model": "hermes",
+  "generatedAt": "2026-11-10",
+  "tool": "tools/prepare-model-kit.cjs",
+  "units": "cm",
+  "frame": "x: viewer-left → right, y: floor → up, z: back → front",
+  "naturalSwatch": "cream",
+  "configurations": {
+    "chaise": {
+      "file": "chaise.glb",
+      "product": 124476,
+      "source": "tools/source-models/hermes/rcity-124476.glb",
+      "sourceChaiseSide": "left",
+      "naturalSwatch": "cream",
+      "seats": 2,
+      "triangles": 150728,
+      "native": {
+        "width": 330,
+        "height": 98.8,
+        "length": 230,
+        "chaiseSide": "left",
+        "depth": 101.6,
+        "chaiseLength": 230,
+        "chaiseColumn": 104,
+        "armOtherSide": 24.5,
+        "xBreaks": [
+          0,
+          104,
+          305.5,
+          330
+        ],
+        "zBreaks": [
+          0,
+          101.6,
+          230
+        ]
+      }
+    }
+  }
+}
