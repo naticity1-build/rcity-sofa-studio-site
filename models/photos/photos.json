@@ -1,12 +1,12 @@
 {
-  "generated": "2026-11-01T17:52:16.471Z",
+  "generated": "2026-11-10T13:08:46.333Z",
   "note": "צילומי מוצר מאתר rcity.co.il (רכוש החברה), להמחשה בלבד; נוצר ב-tools/prepare-model-photos.cjs",
   "maxWidth": 900,
   "photos": {
     "eyal": {
       "file": "eyal.jpg",
       "source": "https://www.rcity.co.il/wp-content/uploads/2026/10/סלון-דגם-אייל-פינתי-בגוון-שמנת.jpg",
-      "chaiseSide": null,
+      "chaiseSide": "right",
       "width": 900,
       "height": 900,
       "bytes": 136224
@@ -14,39 +14,39 @@
     "impro": {
       "file": "impro.jpg",
       "source": "https://www.rcity.co.il/wp-content/uploads/2026/08/סלון-דגם-אימפרו-320.180-ס״מ.jpg",
-      "chaiseSide": null,
+      "chaiseSide": "right",
       "width": 900,
       "height": 900,
       "bytes": 95402
     },
     "itay": {
       "file": "itay.jpg",
-      "source": "https://www.rcity.co.il/wp-content/uploads/2026/10/סלון-איתי-רהיטי-הסיטי-1.jpg",
+      "source": "https://www.rcity.co.il/wp-content/uploads/2026/08/סלון-דגם-איתי.jpg",
       "chaiseSide": null,
       "width": 900,
       "height": 900,
-      "bytes": 180578
+      "bytes": 113799
     },
     "eliav": {
       "file": "eliav.jpg",
       "source": "https://www.rcity.co.il/wp-content/uploads/2026/08/סלון-דגם-אליאב-300.200-ס״מ.jpg",
-      "chaiseSide": null,
+      "chaiseSide": "right",
       "width": 900,
       "height": 900,
       "bytes": 114583
     },
     "elita": {
       "file": "elita.jpg",
-      "source": "https://www.rcity.co.il/wp-content/uploads/2026/08/סלון-דגם-אליטה-סהרה.jpg",
+      "source": "https://www.rcity.co.il/wp-content/uploads/2026/08/סלון-דגם-אליטה-שמנת.jpg",
       "chaiseSide": null,
       "width": 900,
       "height": 900,
-      "bytes": 137530
+      "bytes": 109133
     },
     "alaska": {
       "file": "alaska.jpg",
       "source": "https://www.rcity.co.il/wp-content/uploads/2026/08/סלון-דגם-אלסקה-300.200-ס״מ.jpg",
-      "chaiseSide": null,
+      "chaiseSide": "right",
       "width": 900,
       "height": 900,
       "bytes": 110706
@@ -54,7 +54,7 @@
     "athens": {
       "file": "athens.jpg",
       "source": "https://www.rcity.co.il/wp-content/uploads/2026/08/סלון-דגם-אתונה-350.180-ס״מ.jpg",
-      "chaiseSide": null,
+      "chaiseSide": "left",
       "width": 900,
       "height": 900,
       "bytes": 134653
@@ -62,23 +62,23 @@
     "blanc": {
       "file": "blanc.jpg",
       "source": "https://www.rcity.co.il/wp-content/uploads/2026/08/סלון-דגם-בלאן-300.180-ס״מ.jpg",
-      "chaiseSide": null,
+      "chaiseSide": "right",
       "width": 900,
       "height": 900,
       "bytes": 123413
     },
     "bamboo": {
       "file": "bamboo.jpg",
-      "source": "https://www.rcity.co.il/wp-content/uploads/2026/09/סלון-פינתי-דגם-במבו.jpg",
-      "chaiseSide": null,
+      "source": "https://www.rcity.co.il/wp-content/uploads/2026/08/סלון-דגם-במבו-300.200-ס״מ-בגוון-שמנת.jpg",
+      "chaiseSide": "right",
       "width": 900,
       "height": 900,
-      "bytes": 114723
+      "bytes": 104662
     },
     "gefen": {
       "file": "gefen.jpg",
       "source": "https://www.rcity.co.il/wp-content/uploads/2026/10/סלון-דגם-גפן-רהיטי-הסיטי.jpg",
-      "chaiseSide": null,
+      "chaiseSide": "right",
       "width": 900,
       "height": 900,
       "bytes": 153999
@@ -181,11 +181,11 @@
     },
     "simba": {
       "file": "simba.jpg",
-      "source": "https://www.rcity.co.il/wp-content/uploads/2026/08/סלון-סימבה-אפור-רהיטי-הסיטי-8.png",
+      "source": "https://www.rcity.co.il/wp-content/uploads/2026/08/ספה-סימבה-שמנת-300-רהיטי-הסיטי-9.jpg",
       "chaiseSide": null,
       "width": 900,
       "height": 507,
-      "bytes": 79719
+      "bytes": 59094
     },
     "sinta": {
       "file": "sinta.jpg",
@@ -194,6 +194,14 @@
       "width": 900,
       "height": 900,
       "bytes": 165043
+    },
+    "sinta-chaise": {
+      "file": "sinta-chaise.jpg",
+      "source": "https://www.rcity.co.il/wp-content/uploads/2026/08/סלון-דגם-סינטה-300.250-ס״מ.jpg",
+      "chaiseSide": "right",
+      "width": 900,
+      "height": 900,
+      "bytes": 140595
     },
     "omer": {
       "file": "omer.jpg",
