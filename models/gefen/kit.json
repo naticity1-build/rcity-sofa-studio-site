@@ -6,6 +6,7 @@
   "frame": "x: viewer-left → right, y: floor → up, z: back → front",
   "naturalSwatch": "grey",
   "toneMatch": true,
+  "rigidObjects": "units",
   "configurations": {
     "chaise": {
       "file": "chaise.glb",

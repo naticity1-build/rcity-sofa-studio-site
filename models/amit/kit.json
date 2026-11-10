@@ -6,6 +6,7 @@
   "frame": "x: viewer-left → right, y: floor → up, z: back → front",
   "naturalSwatch": "cream",
   "toneMatch": true,
+  "rigidObjects": "units",
   "configurations": {
     "straight": {
       "file": "straight.glb",
