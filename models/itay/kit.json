@@ -1,6 +1,6 @@
 {
   "model": "itay",
-  "generatedAt": "2026-11-10",
+  "generatedAt": "2026-11-15",
   "tool": "tools/prepare-model-kit.cjs",
   "units": "cm",
   "frame": "x: viewer-left → right, y: floor → up, z: back → front",
@@ -11,27 +11,27 @@
     "straight": {
       "file": "straight.glb",
       "product": 124438,
-      "source": "tools/source-models/itay/rcity-124438.glb",
+      "source": "tools/source-models/itay/rcity-124438-studio.glb",
       "sourceChaiseSide": null,
       "naturalSwatch": "grey",
       "seats": 2,
-      "triangles": 99340,
+      "triangles": 136728,
       "native": {
         "width": 300,
-        "height": 88,
-        "length": 95,
-        "depth": 95,
-        "armLeft": 42.1,
-        "armRight": 42.1,
+        "height": 81.4,
+        "length": 110.5,
+        "depth": 110.5,
+        "armLeft": 42.4,
+        "armRight": 42.5,
         "xBreaks": [
           0,
-          42.1,
-          257.9,
+          42.4,
+          257.5,
           300
         ],
         "zBreaks": [
           0,
-          95
+          110.5
         ]
       }
     }
