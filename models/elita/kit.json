@@ -1,37 +1,37 @@
 {
   "model": "elita",
-  "generatedAt": "2026-11-10",
+  "generatedAt": "2026-11-15",
   "tool": "tools/prepare-model-kit.cjs",
   "units": "cm",
   "frame": "x: viewer-left → right, y: floor → up, z: back → front",
-  "naturalSwatch": "taupe",
+  "naturalSwatch": "cream",
   "toneMatch": true,
   "rigidObjects": "units",
   "configurations": {
     "straight": {
       "file": "straight.glb",
       "product": 103252,
-      "source": "tools/source-models/elita/rcity-103252.glb",
+      "source": "tools/source-models/elita/rcity-103252-studio.glb",
       "sourceChaiseSide": null,
-      "naturalSwatch": "taupe",
+      "naturalSwatch": "cream",
       "seats": 2,
-      "triangles": 87856,
+      "triangles": 123476,
       "native": {
-        "width": 300,
-        "height": 89,
-        "length": 110,
-        "depth": 110,
+        "width": 299.9,
+        "height": 95.9,
+        "length": 110.1,
+        "depth": 110.1,
         "armLeft": 30,
-        "armRight": 30,
+        "armRight": 29.9,
         "xBreaks": [
           0,
           30,
           270,
-          300
+          299.9
         ],
         "zBreaks": [
           0,
-          110
+          110.1
         ]
       }
     }
