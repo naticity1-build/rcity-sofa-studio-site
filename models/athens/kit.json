@@ -1,6 +1,6 @@
 {
   "model": "athens",
-  "generatedAt": "2026-11-10",
+  "generatedAt": "2026-11-15",
   "tool": "tools/prepare-model-kit.cjs",
   "units": "cm",
   "frame": "x: viewer-left → right, y: floor → up, z: back → front",
@@ -11,30 +11,57 @@
     "chaise": {
       "file": "chaise.glb",
       "product": 124448,
-      "source": "tools/source-models/athens/rcity-124448.glb",
-      "sourceChaiseSide": "left",
+      "source": "tools/source-models/athens/rcity-124448-studio.glb",
+      "sourceChaiseSide": "right",
       "naturalSwatch": "taupe",
       "seats": 2,
-      "triangles": 160492,
+      "triangles": 120380,
       "native": {
         "width": 350,
-        "height": 94.5,
+        "height": 93.6,
         "length": 180,
         "chaiseSide": "left",
-        "depth": 103.9,
+        "depth": 104.9,
         "chaiseLength": 180,
-        "chaiseColumn": 119.8,
+        "chaiseColumn": 120.1,
         "armOtherSide": 6,
         "xBreaks": [
           0,
-          119.8,
+          120.1,
           344,
           350
         ],
         "zBreaks": [
           0,
-          103.9,
+          104.9,
           180
+        ]
+      }
+    },
+    "straight": {
+      "file": "straight.glb",
+      "product": 124448,
+      "source": "tools/source-models/athens/rcity-124448-studio-straight.glb",
+      "sourceChaiseSide": null,
+      "naturalSwatch": "taupe",
+      "seats": 4,
+      "triangles": 114304,
+      "native": {
+        "width": 350,
+        "height": 93.6,
+        "length": 105,
+        "depth": 105,
+        "armLeft": 6,
+        "armRight": 6,
+        "xBreaks": [
+          0,
+          6,
+          344,
+          350
+        ],
+        "zBreaks": [
+          0,
+          105
         ]
       }
     }

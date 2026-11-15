@@ -1,6 +1,6 @@
 {
   "model": "bamboo",
-  "generatedAt": "2026-11-10",
+  "generatedAt": "2026-11-15",
   "tool": "tools/prepare-model-kit.cjs",
   "units": "cm",
   "frame": "x: viewer-left → right, y: floor → up, z: back → front",
@@ -11,30 +11,57 @@
     "chaise": {
       "file": "chaise.glb",
       "product": 124409,
-      "source": "tools/source-models/bamboo/rcity-124409.glb",
+      "source": "tools/source-models/bamboo/rcity-124409-studio.glb",
       "sourceChaiseSide": "right",
       "naturalSwatch": "cream",
       "seats": 2,
-      "triangles": 166824,
+      "triangles": 106684,
       "native": {
-        "width": 300.2,
-        "height": 91,
-        "length": 200.1,
+        "width": 299.5,
+        "height": 97.1,
+        "length": 200.9,
         "chaiseSide": "left",
-        "depth": 104.8,
-        "chaiseLength": 200.1,
+        "depth": 105.9,
+        "chaiseLength": 200.9,
         "chaiseColumn": 100.3,
-        "armOtherSide": 15,
+        "armOtherSide": 15.2,
         "xBreaks": [
           0,
           100.3,
-          285.2,
-          300.2
+          284.3,
+          299.5
         ],
         "zBreaks": [
           0,
-          104.8,
-          200.1
+          105.9,
+          200.9
+        ]
+      }
+    },
+    "straight": {
+      "file": "straight.glb",
+      "product": 124409,
+      "source": "tools/source-models/bamboo/rcity-124409-studio-straight.glb",
+      "sourceChaiseSide": null,
+      "naturalSwatch": "cream",
+      "seats": 3,
+      "triangles": 89330,
+      "native": {
+        "width": 299.5,
+        "height": 96.8,
+        "length": 105.9,
+        "depth": 105.9,
+        "armLeft": 15.2,
+        "armRight": 15.2,
+        "xBreaks": [
+          0,
+          15.2,
+          284.3,
+          299.5
+        ],
+        "zBreaks": [
+          0,
+          105.9
         ]
       }
     }
