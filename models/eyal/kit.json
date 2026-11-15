@@ -1,6 +1,6 @@
 {
   "model": "eyal",
-  "generatedAt": "2026-11-10",
+  "generatedAt": "2026-11-15",
   "tool": "tools/prepare-model-kit.cjs",
   "units": "cm",
   "frame": "x: viewer-left → right, y: floor → up, z: back → front",
@@ -11,30 +11,30 @@
     "chaise": {
       "file": "chaise.glb",
       "product": 117328,
-      "source": "tools/source-models/eyal/rcity-117328.glb",
+      "source": "tools/source-models/eyal/rcity-117328-studio.glb",
       "sourceChaiseSide": "right",
       "naturalSwatch": "cream",
       "seats": 2,
-      "triangles": 114640,
+      "triangles": 163536,
       "native": {
-        "width": 300,
-        "height": 91.4,
-        "length": 200,
+        "width": 299.9,
+        "height": 102.5,
+        "length": 199.9,
         "chaiseSide": "left",
-        "depth": 96.8,
-        "chaiseLength": 200,
-        "chaiseColumn": 105.8,
+        "depth": 99.8,
+        "chaiseLength": 199.9,
+        "chaiseColumn": 106,
         "armOtherSide": 37.5,
         "xBreaks": [
           0,
-          105.8,
+          106,
           262.5,
-          300
+          299.9
         ],
         "zBreaks": [
           0,
-          96.8,
-          200
+          99.8,
+          199.9
         ]
       }
     }
