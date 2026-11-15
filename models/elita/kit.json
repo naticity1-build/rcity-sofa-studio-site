@@ -8,6 +8,36 @@
   "toneMatch": true,
   "rigidObjects": "units",
   "configurations": {
+    "chaise": {
+      "file": "chaise.glb",
+      "product": 103252,
+      "source": "tools/source-models/elita/rcity-103252-studio-chaise.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "cream",
+      "seats": 1,
+      "triangles": 161900,
+      "native": {
+        "width": 300.2,
+        "height": 95.9,
+        "length": 200.1,
+        "chaiseSide": "left",
+        "depth": 110.1,
+        "chaiseLength": 200.1,
+        "chaiseColumn": 150.5,
+        "armOtherSide": 30,
+        "xBreaks": [
+          0,
+          150.5,
+          270.3,
+          300.2
+        ],
+        "zBreaks": [
+          0,
+          110.1,
+          200.1
+        ]
+      }
+    },
     "straight": {
       "file": "straight.glb",
       "product": 103252,

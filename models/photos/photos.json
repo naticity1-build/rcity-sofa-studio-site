@@ -38,7 +38,7 @@
     "elita": {
       "file": "elita.jpg",
       "source": "https://www.rcity.co.il/wp-content/uploads/2026/08/סלון-דגם-אליטה-שמנת.jpg",
-      "chaiseSide": null,
+      "chaiseSide": "right",
       "width": 900,
       "height": 900,
       "bytes": 109133
