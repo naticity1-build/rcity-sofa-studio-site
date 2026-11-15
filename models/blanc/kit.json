@@ -37,6 +37,63 @@
           180
         ]
       }
+    },
+    "corner": {
+      "file": "corner.glb",
+      "product": 124356,
+      "source": "tools/source-models/blanc/rcity-124356-studio-corner.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "taupe",
+      "seats": null,
+      "triangles": 219784,
+      "native": {
+        "width": 300,
+        "height": 95.1,
+        "length": 180,
+        "chaiseSide": "left",
+        "depth": 104,
+        "chaiseLength": 180,
+        "chaiseColumn": 99.2,
+        "armOtherSide": 39.2,
+        "xBreaks": [
+          0,
+          99.2,
+          260.8,
+          300
+        ],
+        "zBreaks": [
+          0,
+          104,
+          180
+        ]
+      }
+    },
+    "straight": {
+      "file": "straight.glb",
+      "product": 124356,
+      "source": "tools/source-models/blanc/rcity-124356-studio-straight.glb",
+      "sourceChaiseSide": null,
+      "naturalSwatch": "taupe",
+      "seats": null,
+      "triangles": 190126,
+      "native": {
+        "width": 300,
+        "height": 95.1,
+        "length": 105,
+        "depth": 105,
+        "armLeft": 40.4,
+        "armRight": 6,
+        "xBreaks": [
+          0,
+          40.4,
+          294,
+          300
+        ],
+        "zBreaks": [
+          0,
+          105
+        ]
+      }
     }
   }
 }

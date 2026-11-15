@@ -37,6 +37,63 @@
           199.5
         ]
       }
+    },
+    "corner": {
+      "file": "corner.glb",
+      "product": 124381,
+      "source": "tools/source-models/alaska/rcity-124381-studio-corner.glb",
+      "sourceChaiseSide": "left",
+      "naturalSwatch": "cream",
+      "seats": 2,
+      "triangles": 159600,
+      "native": {
+        "width": 299.5,
+        "height": 88.3,
+        "length": 199.5,
+        "chaiseSide": "left",
+        "depth": 89.4,
+        "chaiseLength": 199.5,
+        "chaiseColumn": 100.7,
+        "armOtherSide": 6,
+        "xBreaks": [
+          0,
+          100.7,
+          293.5,
+          299.5
+        ],
+        "zBreaks": [
+          0,
+          89.4,
+          199.5
+        ]
+      }
+    },
+    "straight": {
+      "file": "straight.glb",
+      "product": 124381,
+      "source": "tools/source-models/alaska/rcity-124381-studio-straight.glb",
+      "sourceChaiseSide": null,
+      "naturalSwatch": "cream",
+      "seats": 3,
+      "triangles": 123548,
+      "native": {
+        "width": 299.5,
+        "height": 88.4,
+        "length": 90.3,
+        "depth": 90.3,
+        "armLeft": 6,
+        "armRight": 6,
+        "xBreaks": [
+          0,
+          6,
+          293.5,
+          299.5
+        ],
+        "zBreaks": [
+          0,
+          90.3
+        ]
+      }
     }
   }
 }

@@ -8,6 +8,66 @@
   "toneMatch": true,
   "rigidObjects": "units",
   "configurations": {
+    "chaise": {
+      "file": "chaise.glb",
+      "product": 124438,
+      "source": "tools/source-models/itay/rcity-124438-studio-chaise.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "grey",
+      "seats": 1,
+      "triangles": 155932,
+      "native": {
+        "width": 300.2,
+        "height": 81.4,
+        "length": 200.5,
+        "chaiseSide": "left",
+        "depth": 110.3,
+        "chaiseLength": 200.5,
+        "chaiseColumn": 150.8,
+        "armOtherSide": 42.6,
+        "xBreaks": [
+          0,
+          150.8,
+          257.6,
+          300.2
+        ],
+        "zBreaks": [
+          0,
+          110.3,
+          200.5
+        ]
+      }
+    },
+    "corner": {
+      "file": "corner.glb",
+      "product": 124438,
+      "source": "tools/source-models/itay/rcity-124438-studio-corner.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "grey",
+      "seats": 1,
+      "triangles": 197834,
+      "native": {
+        "width": 299.8,
+        "height": 81.4,
+        "length": 200.5,
+        "chaiseSide": "left",
+        "depth": 110.3,
+        "chaiseLength": 200.5,
+        "chaiseColumn": 150.6,
+        "armOtherSide": 42.3,
+        "xBreaks": [
+          0,
+          150.6,
+          257.5,
+          299.8
+        ],
+        "zBreaks": [
+          0,
+          110.3,
+          200.5
+        ]
+      }
+    },
     "straight": {
       "file": "straight.glb",
       "product": 124438,

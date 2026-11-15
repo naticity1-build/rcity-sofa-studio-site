@@ -38,6 +38,36 @@
         ]
       }
     },
+    "corner": {
+      "file": "corner.glb",
+      "product": 124448,
+      "source": "tools/source-models/athens/rcity-124448-studio-corner.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "taupe",
+      "seats": 2,
+      "triangles": 123180,
+      "native": {
+        "width": 350,
+        "height": 93.6,
+        "length": 180,
+        "chaiseSide": "left",
+        "depth": 104.9,
+        "chaiseLength": 180,
+        "chaiseColumn": 120.1,
+        "armOtherSide": 6,
+        "xBreaks": [
+          0,
+          120.1,
+          344,
+          350
+        ],
+        "zBreaks": [
+          0,
+          104.9,
+          180
+        ]
+      }
+    },
     "straight": {
       "file": "straight.glb",
       "product": 124448,

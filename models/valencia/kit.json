@@ -8,6 +8,66 @@
   "toneMatch": true,
   "rigidObjects": "units",
   "configurations": {
+    "chaise": {
+      "file": "chaise.glb",
+      "product": 124364,
+      "source": "tools/source-models/valencia/rcity-124364-studio-chaise.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "cream",
+      "seats": 1,
+      "triangles": 140536,
+      "native": {
+        "width": 320,
+        "height": 105.6,
+        "length": 219.5,
+        "chaiseSide": "left",
+        "depth": 119.4,
+        "chaiseLength": 219.5,
+        "chaiseColumn": 100,
+        "armOtherSide": 6,
+        "xBreaks": [
+          0,
+          100,
+          314,
+          320
+        ],
+        "zBreaks": [
+          0,
+          119.4,
+          219.5
+        ]
+      }
+    },
+    "corner": {
+      "file": "corner.glb",
+      "product": 124364,
+      "source": "tools/source-models/valencia/rcity-124364-studio-corner.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "cream",
+      "seats": 1,
+      "triangles": 146944,
+      "native": {
+        "width": 320,
+        "height": 105.6,
+        "length": 219.5,
+        "chaiseSide": "left",
+        "depth": 119.4,
+        "chaiseLength": 219.5,
+        "chaiseColumn": 100,
+        "armOtherSide": 6,
+        "xBreaks": [
+          0,
+          100,
+          314,
+          320
+        ],
+        "zBreaks": [
+          0,
+          119.4,
+          219.5
+        ]
+      }
+    },
     "straight": {
       "file": "straight.glb",
       "product": 124364,

@@ -8,6 +8,36 @@
   "toneMatch": true,
   "rigidObjects": "units",
   "configurations": {
+    "chaise": {
+      "file": "chaise.glb",
+      "product": 124476,
+      "source": "tools/source-models/hermes/rcity-124476-studio-chaise.glb",
+      "sourceChaiseSide": "left",
+      "naturalSwatch": "cream",
+      "seats": 2,
+      "triangles": 170864,
+      "native": {
+        "width": 330.4,
+        "height": 104.6,
+        "length": 229.8,
+        "chaiseSide": "left",
+        "depth": 100.2,
+        "chaiseLength": 229.8,
+        "chaiseColumn": 104.2,
+        "armOtherSide": 46,
+        "xBreaks": [
+          0,
+          104.2,
+          284.4,
+          330.4
+        ],
+        "zBreaks": [
+          0,
+          100.2,
+          229.8
+        ]
+      }
+    },
     "corner": {
       "file": "corner.glb",
       "product": 124476,
@@ -35,6 +65,33 @@
           0,
           100.2,
           230.4
+        ]
+      }
+    },
+    "straight": {
+      "file": "straight.glb",
+      "product": 124476,
+      "source": "tools/source-models/hermes/rcity-124476-studio-straight.glb",
+      "sourceChaiseSide": null,
+      "naturalSwatch": "cream",
+      "seats": 3,
+      "triangles": 146552,
+      "native": {
+        "width": 330.4,
+        "height": 104.6,
+        "length": 101,
+        "depth": 101,
+        "armLeft": 46,
+        "armRight": 46,
+        "xBreaks": [
+          0,
+          46,
+          284.4,
+          330.4
+        ],
+        "zBreaks": [
+          0,
+          101
         ]
       }
     }

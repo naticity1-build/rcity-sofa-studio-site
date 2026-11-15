@@ -38,6 +38,36 @@
         ]
       }
     },
+    "corner": {
+      "file": "corner.glb",
+      "product": 124409,
+      "source": "tools/source-models/bamboo/rcity-124409-studio-corner.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "cream",
+      "seats": 2,
+      "triangles": 112778,
+      "native": {
+        "width": 299.5,
+        "height": 97.1,
+        "length": 200.9,
+        "chaiseSide": "left",
+        "depth": 105.9,
+        "chaiseLength": 200.9,
+        "chaiseColumn": 100.3,
+        "armOtherSide": 15.2,
+        "xBreaks": [
+          0,
+          100.3,
+          284.3,
+          299.5
+        ],
+        "zBreaks": [
+          0,
+          105.9,
+          200.9
+        ]
+      }
+    },
     "straight": {
       "file": "straight.glb",
       "product": 124409,

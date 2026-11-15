@@ -37,6 +37,63 @@
           199.9
         ]
       }
+    },
+    "corner": {
+      "file": "corner.glb",
+      "product": 117328,
+      "source": "tools/source-models/eyal/rcity-117328-studio-corner.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "cream",
+      "seats": 2,
+      "triangles": 185296,
+      "native": {
+        "width": 299.9,
+        "height": 102.5,
+        "length": 199.9,
+        "chaiseSide": "left",
+        "depth": 99.8,
+        "chaiseLength": 199.9,
+        "chaiseColumn": 106,
+        "armOtherSide": 37.5,
+        "xBreaks": [
+          0,
+          106,
+          262.5,
+          299.9
+        ],
+        "zBreaks": [
+          0,
+          99.8,
+          199.9
+        ]
+      }
+    },
+    "straight": {
+      "file": "straight.glb",
+      "product": 117328,
+      "source": "tools/source-models/eyal/rcity-117328-studio-straight.glb",
+      "sourceChaiseSide": null,
+      "naturalSwatch": "cream",
+      "seats": 3,
+      "triangles": 143672,
+      "native": {
+        "width": 299.9,
+        "height": 102.5,
+        "length": 99.9,
+        "depth": 99.9,
+        "armLeft": 37.5,
+        "armRight": 37.5,
+        "xBreaks": [
+          0,
+          37.5,
+          262.5,
+          299.9
+        ],
+        "zBreaks": [
+          0,
+          99.9
+        ]
+      }
     }
   }
 }

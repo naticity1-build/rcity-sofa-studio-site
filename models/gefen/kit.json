@@ -37,6 +37,63 @@
           199.3
         ]
       }
+    },
+    "corner": {
+      "file": "corner.glb",
+      "product": 117787,
+      "source": "tools/source-models/gefen/rcity-117787-studio-corner.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "grey",
+      "seats": 2,
+      "triangles": 201824,
+      "native": {
+        "width": 319.2,
+        "height": 88.1,
+        "length": 199.3,
+        "chaiseSide": "left",
+        "depth": 109.2,
+        "chaiseLength": 199.3,
+        "chaiseColumn": 113.7,
+        "armOtherSide": 20,
+        "xBreaks": [
+          0,
+          113.7,
+          299.2,
+          319.2
+        ],
+        "zBreaks": [
+          0,
+          109.2,
+          199.3
+        ]
+      }
+    },
+    "straight": {
+      "file": "straight.glb",
+      "product": 117787,
+      "source": "tools/source-models/gefen/rcity-117787-studio-straight.glb",
+      "sourceChaiseSide": null,
+      "naturalSwatch": "grey",
+      "seats": 3,
+      "triangles": 156952,
+      "native": {
+        "width": 319.2,
+        "height": 88.1,
+        "length": 109.3,
+        "depth": 109.3,
+        "armLeft": 20,
+        "armRight": 20,
+        "xBreaks": [
+          0,
+          20,
+          299.2,
+          319.2
+        ],
+        "zBreaks": [
+          0,
+          109.3
+        ]
+      }
     }
   }
 }

@@ -22,7 +22,7 @@
     "itay": {
       "file": "itay.jpg",
       "source": "https://www.rcity.co.il/wp-content/uploads/2026/08/סלון-דגם-איתי.jpg",
-      "chaiseSide": null,
+      "chaiseSide": "right",
       "width": 900,
       "height": 900,
       "bytes": 113799
@@ -102,7 +102,7 @@
     "valencia": {
       "file": "valencia.jpg",
       "source": "https://www.rcity.co.il/wp-content/uploads/2026/08/סלון-דגם-ולנסיה-רהיטי-הסיטי.jpg",
-      "chaiseSide": null,
+      "chaiseSide": "right",
       "width": 900,
       "height": 900,
       "bytes": 97531

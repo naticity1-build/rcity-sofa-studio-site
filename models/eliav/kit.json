@@ -37,6 +37,63 @@
           200
         ]
       }
+    },
+    "corner": {
+      "file": "corner.glb",
+      "product": 124302,
+      "source": "tools/source-models/eliav/rcity-124302-studio-corner.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "taupe",
+      "seats": 1,
+      "triangles": 160796,
+      "native": {
+        "width": 300,
+        "height": 86.4,
+        "length": 200,
+        "chaiseSide": "left",
+        "depth": 95.5,
+        "chaiseLength": 200,
+        "chaiseColumn": 109.9,
+        "armOtherSide": 18.2,
+        "xBreaks": [
+          0,
+          109.9,
+          281.8,
+          300
+        ],
+        "zBreaks": [
+          0,
+          95.5,
+          200
+        ]
+      }
+    },
+    "straight": {
+      "file": "straight.glb",
+      "product": 124302,
+      "source": "tools/source-models/eliav/rcity-124302-studio-straight.glb",
+      "sourceChaiseSide": null,
+      "naturalSwatch": "taupe",
+      "seats": 2,
+      "triangles": 108776,
+      "native": {
+        "width": 300,
+        "height": 86.4,
+        "length": 96.6,
+        "depth": 96.6,
+        "armLeft": 18.2,
+        "armRight": 18.2,
+        "xBreaks": [
+          0,
+          18.2,
+          281.8,
+          300
+        ],
+        "zBreaks": [
+          0,
+          96.6
+        ]
+      }
     }
   }
 }
