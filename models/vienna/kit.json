@@ -1,6 +1,6 @@
 {
   "model": "vienna",
-  "generatedAt": "2026-11-10",
+  "generatedAt": "2026-11-15",
   "tool": "tools/prepare-model-kit.cjs",
   "units": "cm",
   "frame": "x: viewer-left → right, y: floor → up, z: back → front",
@@ -8,30 +8,90 @@
   "toneMatch": true,
   "rigidObjects": "units",
   "configurations": {
-    "straight": {
-      "file": "straight.glb",
+    "chaise": {
+      "file": "chaise.glb",
       "product": 124400,
-      "source": "tools/source-models/vienna/rcity-124400.glb",
-      "sourceChaiseSide": null,
+      "source": "tools/source-models/vienna/rcity-124400-studio-chaise.glb",
+      "sourceChaiseSide": "right",
       "naturalSwatch": "cream",
-      "seats": 2,
-      "triangles": 97048,
+      "seats": 1,
+      "triangles": 188158,
       "native": {
-        "width": 300,
-        "height": 100.4,
-        "length": 102,
-        "depth": 102,
-        "armLeft": 25,
-        "armRight": 25,
+        "width": 299.9,
+        "height": 97.7,
+        "length": 199.7,
+        "chaiseSide": "left",
+        "depth": 101.7,
+        "chaiseLength": 199.7,
+        "chaiseColumn": 150.8,
+        "armOtherSide": 25.3,
         "xBreaks": [
           0,
-          25,
-          275,
-          300
+          150.8,
+          274.6,
+          299.9
         ],
         "zBreaks": [
           0,
-          102
+          101.7,
+          199.7
+        ]
+      }
+    },
+    "corner": {
+      "file": "corner.glb",
+      "product": 124400,
+      "source": "tools/source-models/vienna/rcity-124400-studio-corner.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "cream",
+      "seats": 1,
+      "triangles": 214226,
+      "native": {
+        "width": 299.6,
+        "height": 99.5,
+        "length": 199.7,
+        "chaiseSide": "left",
+        "depth": 101.7,
+        "chaiseLength": 199.7,
+        "chaiseColumn": 150.6,
+        "armOtherSide": 25.3,
+        "xBreaks": [
+          0,
+          150.6,
+          274.4,
+          299.6
+        ],
+        "zBreaks": [
+          0,
+          101.7,
+          199.7
+        ]
+      }
+    },
+    "straight": {
+      "file": "straight.glb",
+      "product": 124400,
+      "source": "tools/source-models/vienna/rcity-124400-studio.glb",
+      "sourceChaiseSide": null,
+      "naturalSwatch": "cream",
+      "seats": 2,
+      "triangles": 163852,
+      "native": {
+        "width": 299.9,
+        "height": 97.7,
+        "length": 101.7,
+        "depth": 101.7,
+        "armLeft": 25.3,
+        "armRight": 25.3,
+        "xBreaks": [
+          0,
+          25.3,
+          274.6,
+          299.9
+        ],
+        "zBreaks": [
+          0,
+          101.7
         ]
       }
     }
