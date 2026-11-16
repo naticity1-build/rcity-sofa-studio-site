@@ -1,6 +1,6 @@
 {
   "model": "nasia",
-  "generatedAt": "2026-11-10",
+  "generatedAt": "2026-11-16",
   "tool": "tools/prepare-model-kit.cjs",
   "units": "cm",
   "frame": "x: viewer-left → right, y: floor → up, z: back → front",
@@ -11,30 +11,87 @@
     "chaise": {
       "file": "chaise.glb",
       "product": 124322,
-      "source": "tools/source-models/nasia/rcity-124322.glb",
-      "sourceChaiseSide": "left",
+      "source": "tools/source-models/nasia/rcity-124322-studio.glb",
+      "sourceChaiseSide": "right",
       "naturalSwatch": "cream",
       "seats": 1,
-      "triangles": 82520,
+      "triangles": 101620,
       "native": {
         "width": 320,
-        "height": 96.1,
-        "length": 180.3,
+        "height": 95.6,
+        "length": 180,
         "chaiseSide": "left",
-        "depth": 107.4,
-        "chaiseLength": 180.3,
-        "chaiseColumn": 134.6,
+        "depth": 109.9,
+        "chaiseLength": 180,
+        "chaiseColumn": 135.6,
         "armOtherSide": 6,
         "xBreaks": [
           0,
-          134.6,
+          135.6,
           314,
           320
         ],
         "zBreaks": [
           0,
-          107.4,
-          180.3
+          109.9,
+          180
+        ]
+      }
+    },
+    "corner": {
+      "file": "corner.glb",
+      "product": 124322,
+      "source": "tools/source-models/nasia/rcity-124322-studio-corner.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "cream",
+      "seats": 1,
+      "triangles": 121744,
+      "native": {
+        "width": 320,
+        "height": 95.6,
+        "length": 180,
+        "chaiseSide": "left",
+        "depth": 109.9,
+        "chaiseLength": 180,
+        "chaiseColumn": 135.6,
+        "armOtherSide": 6,
+        "xBreaks": [
+          0,
+          135.6,
+          314,
+          320
+        ],
+        "zBreaks": [
+          0,
+          109.9,
+          180
+        ]
+      }
+    },
+    "straight": {
+      "file": "straight.glb",
+      "product": 124322,
+      "source": "tools/source-models/nasia/rcity-124322-studio-straight.glb",
+      "sourceChaiseSide": null,
+      "naturalSwatch": "cream",
+      "seats": 2,
+      "triangles": 91636,
+      "native": {
+        "width": 320,
+        "height": 95.6,
+        "length": 110,
+        "depth": 110,
+        "armLeft": 6,
+        "armRight": 6,
+        "xBreaks": [
+          0,
+          6,
+          314,
+          320
+        ],
+        "zBreaks": [
+          0,
+          110
         ]
       }
     }
