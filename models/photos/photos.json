@@ -126,7 +126,7 @@
     "miley": {
       "file": "miley.jpg",
       "source": "https://www.rcity.co.il/wp-content/uploads/2026/08/סלון-דגם-מיילי-רהיטי-הסיטי.jpg",
-      "chaiseSide": null,
+      "chaiseSide": "right",
       "width": 900,
       "height": 900,
       "bytes": 120481

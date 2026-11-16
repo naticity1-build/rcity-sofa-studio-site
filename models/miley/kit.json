@@ -1,6 +1,6 @@
 {
   "model": "miley",
-  "generatedAt": "2026-11-10",
+  "generatedAt": "2026-11-16",
   "tool": "tools/prepare-model-kit.cjs",
   "units": "cm",
   "frame": "x: viewer-left → right, y: floor → up, z: back → front",
@@ -8,17 +8,77 @@
   "toneMatch": true,
   "rigidObjects": "units",
   "configurations": {
+    "chaise": {
+      "file": "chaise.glb",
+      "product": 117360,
+      "source": "tools/source-models/miley/rcity-117360-studio-chaise.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "cream",
+      "seats": 1,
+      "triangles": 160956,
+      "native": {
+        "width": 320,
+        "height": 100.2,
+        "length": 200,
+        "chaiseSide": "left",
+        "depth": 120,
+        "chaiseLength": 200,
+        "chaiseColumn": 159.7,
+        "armOtherSide": 41,
+        "xBreaks": [
+          0,
+          159.7,
+          279,
+          320
+        ],
+        "zBreaks": [
+          0,
+          120,
+          200
+        ]
+      }
+    },
+    "corner": {
+      "file": "corner.glb",
+      "product": 117360,
+      "source": "tools/source-models/miley/rcity-117360-studio-corner.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "cream",
+      "seats": 1,
+      "triangles": 173036,
+      "native": {
+        "width": 320,
+        "height": 100.2,
+        "length": 200,
+        "chaiseSide": "left",
+        "depth": 120,
+        "chaiseLength": 200,
+        "chaiseColumn": 159.7,
+        "armOtherSide": 41,
+        "xBreaks": [
+          0,
+          159.7,
+          279,
+          320
+        ],
+        "zBreaks": [
+          0,
+          120,
+          200
+        ]
+      }
+    },
     "straight": {
       "file": "straight.glb",
       "product": 117360,
-      "source": "tools/source-models/miley/rcity-117360.glb",
+      "source": "tools/source-models/miley/rcity-117360-studio.glb",
       "sourceChaiseSide": null,
       "naturalSwatch": "cream",
       "seats": 2,
-      "triangles": 124768,
+      "triangles": 140604,
       "native": {
         "width": 320,
-        "height": 101.8,
+        "height": 100.2,
         "length": 120,
         "depth": 120,
         "armLeft": 41,
