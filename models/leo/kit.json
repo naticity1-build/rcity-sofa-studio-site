@@ -1,6 +1,6 @@
 {
   "model": "leo",
-  "generatedAt": "2026-11-10",
+  "generatedAt": "2026-11-16",
   "tool": "tools/prepare-model-kit.cjs",
   "units": "cm",
   "frame": "x: viewer-left → right, y: floor → up, z: back → front",
@@ -11,30 +11,87 @@
     "chaise": {
       "file": "chaise.glb",
       "product": 124466,
-      "source": "tools/source-models/leo/rcity-124466.glb",
+      "source": "tools/source-models/leo/rcity-124466-studio.glb",
       "sourceChaiseSide": "right",
       "naturalSwatch": "taupe",
       "seats": 2,
-      "triangles": 133384,
+      "triangles": 137362,
       "native": {
-        "width": 299.8,
-        "height": 100.4,
+        "width": 300,
+        "height": 92.6,
         "length": 200,
         "chaiseSide": "left",
-        "depth": 104.8,
+        "depth": 100,
         "chaiseLength": 200,
-        "chaiseColumn": 99.8,
-        "armOtherSide": 27.4,
+        "chaiseColumn": 110.4,
+        "armOtherSide": 26.6,
         "xBreaks": [
           0,
-          99.8,
-          272.4,
-          299.8
+          110.4,
+          273.4,
+          300
         ],
         "zBreaks": [
           0,
-          104.8,
+          100,
           200
+        ]
+      }
+    },
+    "corner": {
+      "file": "corner.glb",
+      "product": 124466,
+      "source": "tools/source-models/leo/rcity-124466-studio-corner.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "taupe",
+      "seats": 2,
+      "triangles": 147166,
+      "native": {
+        "width": 300,
+        "height": 92.6,
+        "length": 200,
+        "chaiseSide": "left",
+        "depth": 100,
+        "chaiseLength": 200,
+        "chaiseColumn": 110.4,
+        "armOtherSide": 26.6,
+        "xBreaks": [
+          0,
+          110.4,
+          273.4,
+          300
+        ],
+        "zBreaks": [
+          0,
+          100,
+          200
+        ]
+      }
+    },
+    "straight": {
+      "file": "straight.glb",
+      "product": 124466,
+      "source": "tools/source-models/leo/rcity-124466-studio-straight.glb",
+      "sourceChaiseSide": null,
+      "naturalSwatch": "taupe",
+      "seats": 3,
+      "triangles": 128860,
+      "native": {
+        "width": 300,
+        "height": 92.6,
+        "length": 100,
+        "depth": 100,
+        "armLeft": 26.6,
+        "armRight": 26.6,
+        "xBreaks": [
+          0,
+          26.6,
+          273.4,
+          300
+        ],
+        "zBreaks": [
+          0,
+          100
         ]
       }
     }
