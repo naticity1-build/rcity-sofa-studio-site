@@ -1,6 +1,6 @@
 {
   "model": "solo",
-  "generatedAt": "2026-11-10",
+  "generatedAt": "2026-11-16",
   "tool": "tools/prepare-model-kit.cjs",
   "units": "cm",
   "frame": "x: viewer-left → right, y: floor → up, z: back → front",
@@ -8,17 +8,77 @@
   "toneMatch": true,
   "rigidObjects": "units",
   "configurations": {
+    "chaise": {
+      "file": "chaise.glb",
+      "product": 124372,
+      "source": "tools/source-models/solo/rcity-124372-studio-chaise.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "cream",
+      "seats": 1,
+      "triangles": 157648,
+      "native": {
+        "width": 300,
+        "height": 97.3,
+        "length": 200,
+        "chaiseSide": "left",
+        "depth": 120,
+        "chaiseLength": 200,
+        "chaiseColumn": 149.7,
+        "armOtherSide": 40,
+        "xBreaks": [
+          0,
+          149.7,
+          260,
+          300
+        ],
+        "zBreaks": [
+          0,
+          120,
+          200
+        ]
+      }
+    },
+    "corner": {
+      "file": "corner.glb",
+      "product": 124372,
+      "source": "tools/source-models/solo/rcity-124372-studio-corner.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "cream",
+      "seats": 1,
+      "triangles": 170144,
+      "native": {
+        "width": 300,
+        "height": 97.3,
+        "length": 200,
+        "chaiseSide": "left",
+        "depth": 120,
+        "chaiseLength": 200,
+        "chaiseColumn": 149.7,
+        "armOtherSide": 40,
+        "xBreaks": [
+          0,
+          149.7,
+          260,
+          300
+        ],
+        "zBreaks": [
+          0,
+          120,
+          200
+        ]
+      }
+    },
     "straight": {
       "file": "straight.glb",
       "product": 124372,
-      "source": "tools/source-models/solo/rcity-124372.glb",
+      "source": "tools/source-models/solo/rcity-124372-studio.glb",
       "sourceChaiseSide": null,
       "naturalSwatch": "cream",
       "seats": 2,
-      "triangles": 184536,
+      "triangles": 137308,
       "native": {
         "width": 300,
-        "height": 96,
+        "height": 97.3,
         "length": 120,
         "depth": 120,
         "armLeft": 40,
