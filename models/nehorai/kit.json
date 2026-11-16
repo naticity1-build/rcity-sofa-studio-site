@@ -1,0 +1,99 @@
+{
+  "model": "nehorai",
+  "generatedAt": "2026-11-16",
+  "tool": "tools/prepare-model-kit.cjs",
+  "units": "cm",
+  "frame": "x: viewer-left → right, y: floor → up, z: back → front",
+  "naturalSwatch": "cream",
+  "toneMatch": true,
+  "rigidObjects": "units",
+  "configurations": {
+    "chaise": {
+      "file": "chaise.glb",
+      "product": null,
+      "source": "tools/source-models/nehorai/rcity-nehorai-studio.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "cream",
+      "seats": 2,
+      "triangles": 228254,
+      "native": {
+        "width": 329.9,
+        "height": 94.5,
+        "length": 250,
+        "chaiseSide": "left",
+        "depth": 100,
+        "chaiseLength": 250,
+        "chaiseColumn": 100.2,
+        "armOtherSide": 11.4,
+        "xBreaks": [
+          0,
+          100.2,
+          318.5,
+          329.9
+        ],
+        "zBreaks": [
+          0,
+          100,
+          250
+        ]
+      }
+    },
+    "corner": {
+      "file": "corner.glb",
+      "product": null,
+      "source": "tools/source-models/nehorai/rcity-nehorai-studio-corner.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "cream",
+      "seats": 2,
+      "triangles": 237806,
+      "native": {
+        "width": 329.9,
+        "height": 94.5,
+        "length": 250,
+        "chaiseSide": "left",
+        "depth": 100,
+        "chaiseLength": 250,
+        "chaiseColumn": 100.2,
+        "armOtherSide": 11.4,
+        "xBreaks": [
+          0,
+          100.2,
+          318.5,
+          329.9
+        ],
+        "zBreaks": [
+          0,
+          100,
+          250
+        ]
+      }
+    },
+    "straight": {
+      "file": "straight.glb",
+      "product": null,
+      "source": "tools/source-models/nehorai/rcity-nehorai-studio-straight.glb",
+      "sourceChaiseSide": null,
+      "naturalSwatch": "cream",
+      "seats": 3,
+      "triangles": 168568,
+      "native": {
+        "width": 329.8,
+        "height": 94.6,
+        "length": 100,
+        "depth": 100,
+        "armLeft": 11.4,
+        "armRight": 11.4,
+        "xBreaks": [
+          0,
+          11.4,
+          318.4,
+          329.8
+        ],
+        "zBreaks": [
+          0,
+          100
+        ]
+      }
+    }
+  }
+}

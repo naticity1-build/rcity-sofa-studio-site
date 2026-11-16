@@ -1,37 +1,97 @@
 {
   "model": "nolan",
-  "generatedAt": "2026-11-10",
+  "generatedAt": "2026-11-16",
   "tool": "tools/prepare-model-kit.cjs",
   "units": "cm",
   "frame": "x: viewer-left → right, y: floor → up, z: back → front",
-  "naturalSwatch": "taupe",
+  "naturalSwatch": "cream",
   "toneMatch": true,
   "rigidObjects": "units",
   "configurations": {
-    "straight": {
-      "file": "straight.glb",
+    "chaise": {
+      "file": "chaise.glb",
       "product": 124347,
-      "source": "tools/source-models/nolan/rcity-124347.glb",
-      "sourceChaiseSide": null,
-      "naturalSwatch": "taupe",
-      "seats": 2,
-      "triangles": 127240,
+      "source": "tools/source-models/nolan/rcity-124347-studio-chaise.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "cream",
+      "seats": 1,
+      "triangles": 141986,
       "native": {
         "width": 300,
-        "height": 97.8,
-        "length": 110.1,
-        "depth": 110.1,
-        "armLeft": 36.1,
-        "armRight": 36.1,
+        "height": 99,
+        "length": 200,
+        "chaiseSide": "left",
+        "depth": 110,
+        "chaiseLength": 200,
+        "chaiseColumn": 151.3,
+        "armOtherSide": 36,
         "xBreaks": [
           0,
-          36.1,
-          263.9,
+          151.3,
+          264,
           300
         ],
         "zBreaks": [
           0,
-          110.1
+          110,
+          200
+        ]
+      }
+    },
+    "corner": {
+      "file": "corner.glb",
+      "product": 124347,
+      "source": "tools/source-models/nolan/rcity-124347-studio-corner.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "cream",
+      "seats": 1,
+      "triangles": 144476,
+      "native": {
+        "width": 300,
+        "height": 99,
+        "length": 200,
+        "chaiseSide": "left",
+        "depth": 110,
+        "chaiseLength": 200,
+        "chaiseColumn": 151.3,
+        "armOtherSide": 36,
+        "xBreaks": [
+          0,
+          151.3,
+          264,
+          300
+        ],
+        "zBreaks": [
+          0,
+          110,
+          200
+        ]
+      }
+    },
+    "straight": {
+      "file": "straight.glb",
+      "product": 124347,
+      "source": "tools/source-models/nolan/rcity-124347-studio.glb",
+      "sourceChaiseSide": null,
+      "naturalSwatch": "cream",
+      "seats": 2,
+      "triangles": 119528,
+      "native": {
+        "width": 300,
+        "height": 99,
+        "length": 109.8,
+        "depth": 109.8,
+        "armLeft": 36,
+        "armRight": 36,
+        "xBreaks": [
+          0,
+          36,
+          264,
+          300
+        ],
+        "zBreaks": [
+          0,
+          109.8
         ]
       }
     }

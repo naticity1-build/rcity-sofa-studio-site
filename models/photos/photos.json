@@ -150,7 +150,7 @@
     "nolan": {
       "file": "nolan.jpg",
       "source": "https://www.rcity.co.il/wp-content/uploads/2026/08/ספה-נולן-רהיטי-הסיטי.jpg",
-      "chaiseSide": null,
+      "chaiseSide": "right",
       "width": 900,
       "height": 507,
       "bytes": 96400
