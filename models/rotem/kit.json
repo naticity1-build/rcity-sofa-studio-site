@@ -1,0 +1,99 @@
+{
+  "model": "rotem",
+  "generatedAt": "2026-11-17",
+  "tool": "tools/prepare-model-kit.cjs",
+  "units": "cm",
+  "frame": "x: viewer-left → right, y: floor → up, z: back → front",
+  "naturalSwatch": "cream",
+  "toneMatch": true,
+  "rigidObjects": "units",
+  "configurations": {
+    "chaise": {
+      "file": "chaise.glb",
+      "product": null,
+      "source": "tools/source-models/rotem/rcity-rotem-studio.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "cream",
+      "seats": 2,
+      "triangles": 230442,
+      "native": {
+        "width": 300,
+        "height": 91.6,
+        "length": 200,
+        "chaiseSide": "left",
+        "depth": 90,
+        "chaiseLength": 200,
+        "chaiseColumn": 104.6,
+        "armOtherSide": 10,
+        "xBreaks": [
+          0,
+          104.6,
+          290,
+          300
+        ],
+        "zBreaks": [
+          0,
+          90,
+          200
+        ]
+      }
+    },
+    "corner": {
+      "file": "corner.glb",
+      "product": null,
+      "source": "tools/source-models/rotem/rcity-rotem-studio-corner.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "cream",
+      "seats": 2,
+      "triangles": 246498,
+      "native": {
+        "width": 300,
+        "height": 91.6,
+        "length": 200,
+        "chaiseSide": "left",
+        "depth": 90,
+        "chaiseLength": 200,
+        "chaiseColumn": 104.6,
+        "armOtherSide": 10,
+        "xBreaks": [
+          0,
+          104.6,
+          290,
+          300
+        ],
+        "zBreaks": [
+          0,
+          90,
+          200
+        ]
+      }
+    },
+    "straight": {
+      "file": "straight.glb",
+      "product": null,
+      "source": "tools/source-models/rotem/rcity-rotem-studio-straight.glb",
+      "sourceChaiseSide": null,
+      "naturalSwatch": "cream",
+      "seats": 3,
+      "triangles": 179838,
+      "native": {
+        "width": 300,
+        "height": 91.6,
+        "length": 90.2,
+        "depth": 90.2,
+        "armLeft": 10,
+        "armRight": 10,
+        "xBreaks": [
+          0,
+          10,
+          290,
+          300
+        ],
+        "zBreaks": [
+          0,
+          90.2
+        ]
+      }
+    }
+  }
+}

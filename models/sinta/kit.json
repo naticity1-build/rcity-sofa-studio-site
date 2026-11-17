@@ -1,6 +1,6 @@
 {
   "model": "sinta",
-  "generatedAt": "2026-11-10",
+  "generatedAt": "2026-11-17",
   "tool": "tools/prepare-model-kit.cjs",
   "units": "cm",
   "frame": "x: viewer-left → right, y: floor → up, z: back → front",
@@ -11,58 +11,192 @@
     "chaise": {
       "file": "chaise.glb",
       "product": 124457,
-      "source": "tools/source-models/sinta/rcity-124457.glb",
+      "source": "tools/source-models/sinta/rcity-124457-studio.glb",
       "sourceChaiseSide": "right",
       "naturalSwatch": "taupe",
       "seats": 1,
-      "triangles": 111856,
+      "triangles": 107004,
       "native": {
-        "width": 300,
-        "height": 96.8,
+        "width": 299.8,
+        "height": 90.6,
         "length": 250,
         "chaiseSide": "left",
-        "depth": 108.6,
+        "depth": 110,
         "chaiseLength": 250,
         "chaiseColumn": 110,
-        "armOtherSide": 35,
+        "armOtherSide": 35.6,
         "xBreaks": [
           0,
           110,
-          265,
-          300
+          264.2,
+          299.8
         ],
         "zBreaks": [
           0,
-          108.6,
+          110,
           250
         ]
+      },
+      "bySeats": {
+        "3": {
+          "file": "chaise-3seats.glb",
+          "source": "tools/source-models/sinta/rcity-124457-studio-3seats.glb",
+          "triangles": 112004,
+          "native": {
+            "width": 299.8,
+            "height": 90.6,
+            "length": 250,
+            "chaiseSide": "left",
+            "depth": 110,
+            "chaiseLength": 250,
+            "chaiseColumn": 110,
+            "armOtherSide": 35.6,
+            "xBreaks": [
+              0,
+              110,
+              264.2,
+              299.8
+            ],
+            "zBreaks": [
+              0,
+              110,
+              250
+            ]
+          }
+        }
+      }
+    },
+    "corner": {
+      "file": "corner.glb",
+      "product": 124457,
+      "source": "tools/source-models/sinta/rcity-124457-studio-corner.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "taupe",
+      "seats": 1,
+      "triangles": 101460,
+      "native": {
+        "width": 299.8,
+        "height": 90.6,
+        "length": 250,
+        "chaiseSide": "left",
+        "depth": 110,
+        "chaiseLength": 250,
+        "chaiseColumn": 110,
+        "armOtherSide": 35.6,
+        "xBreaks": [
+          0,
+          110,
+          264.2,
+          299.8
+        ],
+        "zBreaks": [
+          0,
+          110,
+          250
+        ]
+      },
+      "bySeats": {
+        "3": {
+          "file": "corner-3seats.glb",
+          "source": "tools/source-models/sinta/rcity-124457-studio-corner-3seats.glb",
+          "triangles": 106460,
+          "native": {
+            "width": 299.8,
+            "height": 90.6,
+            "length": 250,
+            "chaiseSide": "left",
+            "depth": 110,
+            "chaiseLength": 250,
+            "chaiseColumn": 110,
+            "armOtherSide": 35.6,
+            "xBreaks": [
+              0,
+              110,
+              264.2,
+              299.8
+            ],
+            "zBreaks": [
+              0,
+              110,
+              250
+            ]
+          }
+        }
       }
     },
     "straight": {
       "file": "straight.glb",
-      "product": 117780,
-      "source": "tools/source-models/sinta/rcity-117780.glb",
+      "product": 124457,
+      "source": "tools/source-models/sinta/rcity-124457-studio-straight.glb",
       "sourceChaiseSide": null,
-      "naturalSwatch": "cream",
+      "naturalSwatch": "taupe",
       "seats": 2,
-      "triangles": 131000,
+      "triangles": 92884,
       "native": {
         "width": 319.6,
-        "height": 89.4,
+        "height": 80.2,
         "length": 110,
         "depth": 110,
-        "armLeft": 31.3,
-        "armRight": 31.3,
+        "armLeft": 35.6,
+        "armRight": 35.6,
         "xBreaks": [
           0,
-          31.3,
-          288.3,
+          35.6,
+          284,
           319.6
         ],
         "zBreaks": [
           0,
           110
         ]
+      },
+      "bySeats": {
+        "3": {
+          "file": "straight-3seats.glb",
+          "source": "tools/source-models/sinta/rcity-124457-studio-straight-3seats.glb",
+          "triangles": 97596,
+          "native": {
+            "width": 319.6,
+            "height": 80.5,
+            "length": 110,
+            "depth": 110,
+            "armLeft": 35.6,
+            "armRight": 35.6,
+            "xBreaks": [
+              0,
+              35.6,
+              284,
+              319.6
+            ],
+            "zBreaks": [
+              0,
+              110
+            ]
+          }
+        },
+        "4": {
+          "file": "straight-4seats.glb",
+          "source": "tools/source-models/sinta/rcity-124457-studio-straight-4seats.glb",
+          "triangles": 102860,
+          "native": {
+            "width": 319.6,
+            "height": 80.6,
+            "length": 110,
+            "depth": 110,
+            "armLeft": 35.6,
+            "armRight": 35.6,
+            "xBreaks": [
+              0,
+              35.6,
+              284,
+              319.6
+            ],
+            "zBreaks": [
+              0,
+              110
+            ]
+          }
+        }
       }
     }
   }

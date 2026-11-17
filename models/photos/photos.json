@@ -206,7 +206,7 @@
     "omer": {
       "file": "omer.jpg",
       "source": "https://www.rcity.co.il/wp-content/uploads/2026/10/סלון-דגם-עומר-בגוון-שמנת.jpg",
-      "chaiseSide": null,
+      "chaiseSide": "right",
       "width": 900,
       "height": 900,
       "bytes": 162168
@@ -214,7 +214,7 @@
     "amit": {
       "file": "amit.jpg",
       "source": "https://www.rcity.co.il/wp-content/uploads/2026/10/סלון-עמית-רהיטי-הסיטי-1.jpg",
-      "chaiseSide": null,
+      "chaiseSide": "right",
       "width": 900,
       "height": 900,
       "bytes": 131247
@@ -270,7 +270,7 @@
     "shila": {
       "file": "shila.jpg",
       "source": "https://www.rcity.co.il/wp-content/uploads/2026/08/סלון-דגם-שילה‏-300-ס״מ.jpg",
-      "chaiseSide": null,
+      "chaiseSide": "right",
       "width": 900,
       "height": 900,
       "bytes": 140382
@@ -278,7 +278,7 @@
     "tavor": {
       "file": "tavor.jpg",
       "source": "https://www.rcity.co.il/wp-content/uploads/2026/08/סלון-דגם-תבור-300-ס״מ.jpg",
-      "chaiseSide": null,
+      "chaiseSide": "right",
       "width": 900,
       "height": 900,
       "bytes": 126247

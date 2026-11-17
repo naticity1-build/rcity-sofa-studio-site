@@ -1,0 +1,99 @@
+{
+  "model": "shila",
+  "generatedAt": "2026-11-17",
+  "tool": "tools/prepare-model-kit.cjs",
+  "units": "cm",
+  "frame": "x: viewer-left → right, y: floor → up, z: back → front",
+  "naturalSwatch": "cream",
+  "toneMatch": true,
+  "rigidObjects": "units",
+  "configurations": {
+    "chaise": {
+      "file": "chaise.glb",
+      "product": null,
+      "source": "tools/source-models/shila/rcity-shila-studio-chaise.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "cream",
+      "seats": 1,
+      "triangles": 150064,
+      "native": {
+        "width": 300,
+        "height": 95.1,
+        "length": 200,
+        "chaiseSide": "left",
+        "depth": 120,
+        "chaiseLength": 200,
+        "chaiseColumn": 149.7,
+        "armOtherSide": 45.3,
+        "xBreaks": [
+          0,
+          149.7,
+          254.7,
+          300
+        ],
+        "zBreaks": [
+          0,
+          120,
+          200
+        ]
+      }
+    },
+    "corner": {
+      "file": "corner.glb",
+      "product": null,
+      "source": "tools/source-models/shila/rcity-shila-studio-corner.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "cream",
+      "seats": 1,
+      "triangles": 160172,
+      "native": {
+        "width": 300,
+        "height": 95.1,
+        "length": 200,
+        "chaiseSide": "left",
+        "depth": 120,
+        "chaiseLength": 200,
+        "chaiseColumn": 149.7,
+        "armOtherSide": 45.3,
+        "xBreaks": [
+          0,
+          149.7,
+          254.7,
+          300
+        ],
+        "zBreaks": [
+          0,
+          120,
+          200
+        ]
+      }
+    },
+    "straight": {
+      "file": "straight.glb",
+      "product": null,
+      "source": "tools/source-models/shila/rcity-shila-studio.glb",
+      "sourceChaiseSide": null,
+      "naturalSwatch": "cream",
+      "seats": 2,
+      "triangles": 129316,
+      "native": {
+        "width": 300,
+        "height": 95.1,
+        "length": 120,
+        "depth": 120,
+        "armLeft": 45.3,
+        "armRight": 45.3,
+        "xBreaks": [
+          0,
+          45.3,
+          254.7,
+          300
+        ],
+        "zBreaks": [
+          0,
+          120
+        ]
+      }
+    }
+  }
+}

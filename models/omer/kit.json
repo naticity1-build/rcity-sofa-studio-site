@@ -1,6 +1,6 @@
 {
   "model": "omer",
-  "generatedAt": "2026-11-10",
+  "generatedAt": "2026-11-17",
   "tool": "tools/prepare-model-kit.cjs",
   "units": "cm",
   "frame": "x: viewer-left → right, y: floor → up, z: back → front",
@@ -8,26 +8,86 @@
   "toneMatch": true,
   "rigidObjects": "units",
   "configurations": {
+    "chaise": {
+      "file": "chaise.glb",
+      "product": 117373,
+      "source": "tools/source-models/omer/rcity-117373-studio-chaise.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "cream",
+      "seats": 1,
+      "triangles": 107768,
+      "native": {
+        "width": 298.8,
+        "height": 96.3,
+        "length": 200,
+        "chaiseSide": "left",
+        "depth": 100,
+        "chaiseLength": 200,
+        "chaiseColumn": 149.1,
+        "armOtherSide": 33.4,
+        "xBreaks": [
+          0,
+          149.1,
+          265.4,
+          298.8
+        ],
+        "zBreaks": [
+          0,
+          100,
+          200
+        ]
+      }
+    },
+    "corner": {
+      "file": "corner.glb",
+      "product": 117373,
+      "source": "tools/source-models/omer/rcity-117373-studio-corner.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "cream",
+      "seats": 1,
+      "triangles": 113772,
+      "native": {
+        "width": 299.4,
+        "height": 96.3,
+        "length": 200,
+        "chaiseSide": "left",
+        "depth": 100,
+        "chaiseLength": 200,
+        "chaiseColumn": 149.7,
+        "armOtherSide": 33.4,
+        "xBreaks": [
+          0,
+          149.7,
+          266,
+          299.4
+        ],
+        "zBreaks": [
+          0,
+          100,
+          200
+        ]
+      }
+    },
     "straight": {
       "file": "straight.glb",
       "product": 117373,
-      "source": "tools/source-models/omer/rcity-117373.glb",
+      "source": "tools/source-models/omer/rcity-117373-studio.glb",
       "sourceChaiseSide": null,
       "naturalSwatch": "cream",
       "seats": 2,
-      "triangles": 139832,
+      "triangles": 100112,
       "native": {
-        "width": 300,
-        "height": 98.3,
+        "width": 298.8,
+        "height": 96.3,
         "length": 100,
         "depth": 100,
-        "armLeft": 34.1,
-        "armRight": 34.1,
+        "armLeft": 33.4,
+        "armRight": 33.4,
         "xBreaks": [
           0,
-          34.1,
-          265.9,
-          300
+          33.4,
+          265.4,
+          298.8
         ],
         "zBreaks": [
           0,

@@ -1,0 +1,99 @@
+{
+  "model": "tavor",
+  "generatedAt": "2026-11-17",
+  "tool": "tools/prepare-model-kit.cjs",
+  "units": "cm",
+  "frame": "x: viewer-left → right, y: floor → up, z: back → front",
+  "naturalSwatch": "sage",
+  "toneMatch": true,
+  "rigidObjects": "units",
+  "configurations": {
+    "chaise": {
+      "file": "chaise.glb",
+      "product": null,
+      "source": "tools/source-models/tavor/rcity-tavor-studio-chaise.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "sage",
+      "seats": 1,
+      "triangles": 168404,
+      "native": {
+        "width": 300,
+        "height": 88.3,
+        "length": 200.3,
+        "chaiseSide": "left",
+        "depth": 110,
+        "chaiseLength": 200.3,
+        "chaiseColumn": 149.7,
+        "armOtherSide": 27,
+        "xBreaks": [
+          0,
+          149.7,
+          273,
+          300
+        ],
+        "zBreaks": [
+          0,
+          110,
+          200.3
+        ]
+      }
+    },
+    "corner": {
+      "file": "corner.glb",
+      "product": null,
+      "source": "tools/source-models/tavor/rcity-tavor-studio-corner.glb",
+      "sourceChaiseSide": "right",
+      "naturalSwatch": "sage",
+      "seats": 1,
+      "triangles": 174728,
+      "native": {
+        "width": 300,
+        "height": 88.3,
+        "length": 200.3,
+        "chaiseSide": "left",
+        "depth": 110,
+        "chaiseLength": 200.3,
+        "chaiseColumn": 149.7,
+        "armOtherSide": 27,
+        "xBreaks": [
+          0,
+          149.7,
+          273,
+          300
+        ],
+        "zBreaks": [
+          0,
+          110,
+          200.3
+        ]
+      }
+    },
+    "straight": {
+      "file": "straight.glb",
+      "product": null,
+      "source": "tools/source-models/tavor/rcity-tavor-studio.glb",
+      "sourceChaiseSide": null,
+      "naturalSwatch": "sage",
+      "seats": 2,
+      "triangles": 144608,
+      "native": {
+        "width": 300,
+        "height": 88.3,
+        "length": 110,
+        "depth": 110,
+        "armLeft": 27,
+        "armRight": 27,
+        "xBreaks": [
+          0,
+          27,
+          273,
+          300
+        ],
+        "zBreaks": [
+          0,
+          110
+        ]
+      }
+    }
+  }
+}
